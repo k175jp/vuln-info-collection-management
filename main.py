@@ -16,7 +16,6 @@ def main():
     for key, value in cpe_list.items():
         for v in value:
             cpe = v['cpe']
-            r = []
             for c in cpe:
                 part, vender, product = c.split(':')
                 # jvn_vuln = get_jvn(part, vender, product)
