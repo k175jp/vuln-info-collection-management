@@ -1,0 +1,331 @@
+{
+	"web": [
+	{	
+		"product": "http_server",
+		"cpe": [
+			"a:apache:http_server"
+		]
+	},
+	{	
+		"product": "struts",
+		"cpe": [
+			"a:apache:struts"
+		]
+	},
+	{	
+		"product": "log4j",
+		"cpe": [
+			"a:apache:log4j"
+		]
+	},
+	{	
+		"product": "tomcat",
+		"cpe": [
+			"a:apache:tomcat"
+		]
+	},
+	{	
+		"product": "wordpress",
+		"cpe": [
+			"a:wordpress:wordpress"
+		]
+	},
+	{	
+		"product": "openssl",
+		"cpe": [
+			"a:openssl:opesssl"
+		]
+	},
+	{	
+		"product": "nginx",
+		"cpe": [
+			"a:f5:nginx"
+		]
+	}
+	],
+	"dns": [
+	{	
+		"product": "bind",
+		"cpe": [
+			"a:isc:bind"
+		]
+	},
+	{	
+		"product": "unbound",
+		"cpe": [
+			"a:nlnetlabs:unbound"
+		]
+	},
+	{	
+		"product": "powerdns",
+		"cpe": [
+			""
+		]
+	}
+	],
+	"fw": [
+	{	
+		"product": "pfsense",
+		"cpe": [
+			"a:pfsense:pfsense"
+		]
+	},
+	{	
+		"product": "ipfire",
+		"cpe": [
+			"a:ipfire:ipfire"
+		]
+	},
+	{	
+		"product": "opensense",
+		"cpe": [
+			"a:opensense:opensense"
+		]
+	},
+	{	
+		"product": "vyos",
+		"cpe": [
+			"o:vyos:vyos"
+		]
+	},
+	{	
+		"product": "untangle",
+		"cpe": [
+			"a:untangle:untangle_firewall_ng"
+		]
+	}
+	],
+	"db": [
+	{	
+		"product": "mysql",
+		"cpe": [
+			"a:oracle:mysql"
+		]
+	},
+	{	
+		"product": "postgresql",
+		"cpe": [
+			"a:postgresql:postgresql"
+		]
+	},
+	{	
+		"product": "mariadb",
+		"cpe": [
+			"a:mariadb:mariadb"
+		]
+	}
+	],
+	"rep": [
+	{	
+		"product": "git",
+		"cpe": [
+			"a:git:git"
+		]
+	},
+	{	
+		"product": "mercurial",
+		"cpe": [
+			"a:mercurial:mercurial"
+		]
+	},
+	{	
+		"product": "subversion",
+		"cpe": [
+			"a:apache:subversion"
+		]
+	}
+	],
+	"proxy": [
+	{	
+		"product": "squid",
+		"cpe": [
+			"a:squid-cache:squid"
+		]
+	},
+	{	
+		"product": "haproxy",
+		"cpe": [
+			"a:haproxy:haproxy"
+		]
+	}
+	],
+	"ntp": [
+	{	
+		"product": "ntp",
+		"cpe": [
+			"a:ntp:ntp"
+		]
+	},
+	{	
+		"product": "chrony",
+		"cpe": [
+			"a:tuxfamily:chrony"
+		]
+	},
+	{	
+		"product": "openntpd",
+		"cpe": [
+			"a:openntpd:openntpd"
+		]
+	}
+	],
+	"ftp": [
+	{	
+		"product": "vsftpd",
+		"cpe": [
+			"a:vsftpd_project:vsftpd"
+		]
+	},
+	{	
+		"product": "proftpd",
+		"cpe": [
+			"a:proftpd:proftpd"
+		]
+	},
+	{	
+		"product": "pure-ftpd",
+		"cpe": [
+			"a:pureftpd:pure-ftpd"
+		]
+	},
+	{	
+		"product": "filezilla",
+		"cpe": [
+			""
+		]
+	}
+	],
+	"file": [
+	{	
+		"product": "samba",
+		"cpe": [
+			"a:samba:samba"
+		]
+	}
+	],
+	"ad": [
+	{	
+		"product": "freeipa",
+		"cpe": [
+			"a:freeipa:freeipa"
+		]
+	},
+	{	
+		"product": "openldap",
+		"cpe": [
+			"a:openldap:opendlap"
+		]
+	},
+	{	
+		"product": "389ds",
+		"cpe": [
+			"a:a:fedoraproject:389_directory_server"
+		]
+	}
+	],
+	"vpn": [
+	{	
+		"product": "openvpn",
+		"cpe": [
+			"a:openvpn:openvpn"
+		]
+	},
+	{	
+		"product": "wireguard",
+		"cpe": [
+			"a:wireguard:wireguard"
+		]
+	},
+	{	
+		"product": "softether vpn",
+		"cpe": [
+			"a:softether:vpn"
+		]
+	},
+	{	
+		"product": "strongswan",
+		"cpe": [
+			"a:strongswan:strongswan"
+		]
+	}
+	],
+	"os": [
+	{	
+		"product": "ubuntu",
+		"cpe": [
+			"o:canonical:ubuntu_linux",
+			"o:canonical:ubuntu_touch",
+			"o:canonical:ubuntu_core"
+		]
+	},
+	{	
+		"product": "centos",
+		"cpe": [
+			"o:centos:centos"
+		]
+	},
+	{	
+		"product": "debian",
+		"cpe": [
+			"o:debian:debian_linux"
+		]
+	},
+	{	
+		"product": "fedora",
+		"cpe": [
+			"o:redhat:fedora",
+			"o:fedoraproject:fedora_core",
+			"o:fedoraproject:fedora"
+		]
+	},
+	{	
+		"product": "arch linux",
+		"cpe": [
+			"o:archlinux:arch_linux"
+		]
+	},
+	{	
+		"product": "linux mint",
+		"cpe": [
+			"o:linuxmint:linux_mint",
+			"o:linuxmint:linuxmit"
+		]
+	},
+	{	
+		"product": "alma linux",
+		"cpe": [
+			"o:almalinux:almalinux"
+		]
+	},
+	{	
+		"product": "freebsd",
+		"cpe": [
+			"o:freebsd:freebsd"
+		]
+	},
+	{	
+		"product": "openbsd",
+		"cpe": [
+			"o:openbsd:openbsd"
+		]
+	},
+	{	
+		"product": "netbsd",
+		"cpe": [
+			"o:netbsd:netbsd"
+		]
+	},
+	{
+		"product": "kali linux",
+		"cpe": [
+			""
+		]
+	},
+	{
+		"product": "opensuse",
+		"cpe": [
+			""
+		]
+	}
+	]
+}
