@@ -33,7 +33,7 @@
 	{	
 		"product": "openssl",
 		"cpe": [
-			"a:openssl:opesssl"
+			"a:openssl:openssl"
 		]
 	},
 	{	
@@ -59,7 +59,7 @@
 	{	
 		"product": "powerdns",
 		"cpe": [
-			""
+			"a:powerdns:pdns"
 		]
 	}
 	],
@@ -191,7 +191,7 @@
 	{	
 		"product": "filezilla",
 		"cpe": [
-			""
+			"a:filezilla:filezilla"
 		]
 	}
 	],
@@ -219,7 +219,7 @@
 	{	
 		"product": "389ds",
 		"cpe": [
-			"a:a:fedoraproject:389_directory_server"
+			"a:fedoraproject:389_directory_server"
 		]
 	}
 	],
@@ -316,15 +316,9 @@
 		]
 	},
 	{
-		"product": "kali linux",
-		"cpe": [
-			""
-		]
-	},
-	{
 		"product": "opensuse",
 		"cpe": [
-			""
+			"o:opensuse_project:opensuse"
 		]
 	}
 	]

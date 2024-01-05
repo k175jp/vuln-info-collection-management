@@ -1,13 +1,15 @@
-# import sys
-# sys.setrecursionlimit(10000)
-
-# import xmltodict
+import sys
+sys.setrecursionlimit(10000)
+import xmltodict
 import json
-with open("r.txt", 'r', encoding='utf-8') as f:
-    # root = xmltodict.parse(f.read())
-    root = json.load(f)
-# key = "/"
-# parse(root, key)
+import argparse
+
+parser = argparse.ArgumentParser(description='')
+parser.add_argument('filepath')
+parser.add_argument('ext')
+args = parser.parse_args()
+filepath = args.filepath
+ext = args.ext
 
 def extract_json_keys(data, parent_key='', separator='::'):
     keys = []
@@ -22,6 +24,12 @@ def extract_json_keys(data, parent_key='', separator='::'):
     else:
         keys.append(parent_key)
     return keys
+
+with open(filepath, 'r', encoding='utf-8') as f:
+    if ext == 'json':
+        root = json.load(f)
+    elif ext == 'xml':
+        root = xmltodict.parse(f.read())
 
 keys = extract_json_keys(root)
 
