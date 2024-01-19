@@ -9,7 +9,7 @@ from cpe.get_cpe_list import get
 from extract.extract_data import extract_jvn_id, extract_jvn
 # from extract.extract_data import extract_jvn_id, extract_jvn, extract_nvd
 # from integrate.integrate_data import integrate
-from db.save_db import MongoManager
+from db.db import MongoManager
 
 JST = timezone(timedelta(hours=+9), 'JST')
 
