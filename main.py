@@ -12,11 +12,18 @@ from extract.extract_data import extract_jvn_id, extract_jvn
 from db.db import MongoManager
 
 JST = timezone(timedelta(hours=+9), 'JST')
+filename = 'lasttime'
+last_time = None
 
 def main():
+    global last_time
+
     mm = MongoManager('', '')
-    with open("lasttime", "r") as f:
-        last_time = f.read()
+
+    if os.path.exists(filename):
+        with open(filename, "r") as f:
+            last_time = f.read()
+
     if last_time == None:
         last_time = "2015/1/1"
 
