@@ -9,14 +9,13 @@ class MongoManager:
         self.client = MongoClient('mongodb://localhost:27017')
         self.db = self.client['vuln']
     
-
     def set_collections(self, c):
         self.collections = self.db[c]
 
-    def find(self, d):
+    def find(self, d={}):
         if not isinstance(d, dict):
-            raise Error(f'only dict :{d}')
-        return self.collections.find_one(d)
+            raise Error(f'only dict: {d}')
+        return self.collections.find(d, {'_id': False})
     
     def insert_data(self, d):
         self.collections.insert_one(d)
